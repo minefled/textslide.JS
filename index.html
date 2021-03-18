@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<script src="text_slide.js"></script>
+<script>
+let text_slider;
+
+window.onload = function() {
+    text_slider = new TextSlider("text", {
+        delay: 20
+    });
+    text_slider.showText("TextSlide.js");
+}
+</script>
+<div id="text" style="min-height: 20px;">
+</div>
+
+<button onclick="text_slider.showText('Kann Bärti heute Nacht bei mir schlafen? Ich würde mich mega drüber freuen! :D');">Test</button>

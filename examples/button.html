@@ -1,0 +1,16 @@
+<meta charset="utf-8">
+<script src="text_slide.min.js"></script>
+<script>
+let text_slider;
+
+window.onload = function() {
+    text_slider = new TextSlider("text", {
+        delay: 20
+    });
+    text_slider.showText("TextSlide.js is epic :D");
+}
+</script>
+<div id="text" style="min-height: 20px;">
+</div>
+
+<button onclick="text_slider.showText('This button can also show Text when you press it!');">Press me!</button>
