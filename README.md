@@ -14,6 +14,24 @@ Options:
 ```
 
 ## Usage
+
+### Basic Usage
+#### Create Textslider
+```javascript
+var options = {}
+var slider = new TextSlider("id_of_your_element", options);
+```
+or
+```javascript
+var slider = new TextSlider("id_of_your_element", {});
+```
+#### Options
+Name | Description | Default Value | Expected Type
+----|----|----|---
+delay | The delay between the individual characters appearing/disappearing | 50 | int/float
+spacewidth | Defines how many pixels wide an empty space character should be | 5 | int/float
+transition_time | How long a character should take to appear (measured in seconds) | 0.5 | float
+distance | How far up/down a character should appear/dissapear from its final position | 100 (%) | int/float
 ### Example
 ```html
 <script>
@@ -34,6 +52,3 @@ window.onload = function() {
 <div id="text" style="min-height: 20px;">
 </div>
 ```
-
-## NOTE: A better documentation and more will follow soon.
-(It's 10:44pm for me as i write this and i dont feel like doing this right now)
