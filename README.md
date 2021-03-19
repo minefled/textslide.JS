@@ -1,6 +1,6 @@
 # Textslide.JS
 
-<Example GIF will come soon :D>
+![If you see this: Never gonna give you up](https://raw.githubusercontent.com/minefled/textslide.JS/main/textslideJS_example.gif)
 
 ## Installation
 Options:
@@ -10,7 +10,7 @@ Options:
 ```
 2. Add your script from the Github URL by doing
 ```html
-<script src="https://raw.githubusercontent.com/minefled/TextslideJS/main/text_slide.min.js"></script>
+<script src="https://raw.githubusercontent.com/minefled/textslide.JS/main/text_slide.min.js"></script>
 ```
 
 ## Usage
