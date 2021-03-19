@@ -32,7 +32,7 @@ delay | The delay between the individual characters appearing/disappearing | 50 
 spacewidth | Defines how many pixels wide an empty space character should be | 5 | int/float
 transition_time | How long a character should take to appear (measured in seconds) | 0.5 | float
 distance | How far up/down a character should appear/dissapear from its final position | 100 (%) | int/float
-### Example
+## Example
 ```html
 <script>
 <meta charset="utf-8">
