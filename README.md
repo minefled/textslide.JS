@@ -3,15 +3,10 @@
 ![If you see this: Never gonna give you up](https://raw.githubusercontent.com/minefled/textslide.JS/main/textslideJS_example.gif)
 
 ## Installation
-Options:
-1. Download the code and either use the text_slide.js or the text_slide.min.js in your projects by doing
 ```html
-<script src="/path/to/your/text_slide.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/minefled/textslide.JS@main/text_slide.min.js"></script>
 ```
-2. Add your script from the Github URL by doing
-```html
-<script src="https://raw.githubusercontent.com/minefled/textslide.JS/main/text_slide.min.js"></script>
-```
+That's it
 
 ## Usage
 
